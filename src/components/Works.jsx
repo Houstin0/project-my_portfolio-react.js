@@ -17,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={zoomIn( index * 0.5, 0.75)}>
+    <motion.div variants={zoomIn( index * 0.5, 1)}>
       <Tilt
         options={{
           max: 45,
@@ -48,8 +48,8 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-black dark:text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-black dark:text-white text-[15px]'>{description}</p>
+          <h3 className='text-black font-bold text-[24px]'>{name}</h3>
+          <p className='mt-2 text-black font-medium text-[15px]'>{description}</p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>

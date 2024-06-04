@@ -81,7 +81,7 @@ const Works = () => {
     </span>
 
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div >
         <p className=  "sm:text-[18px] text-[14px] text-gray-500 uppercase tracking-wider">My work</p>
         <h2 className="text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Projects.</h2>
       </motion.div>

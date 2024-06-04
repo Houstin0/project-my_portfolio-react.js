@@ -77,7 +77,7 @@ const Experience = () => {
     </span>
 
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div >
         <p className="sm:text-[18px] text-[14px] text-black dark:text-white uppercase tracking-wider text-center">
           What I have done so far
         </p>

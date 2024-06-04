@@ -42,14 +42,14 @@ const About = () => {
     initial='hidden'
     whileInView='show'
     viewport={{ once: true, amount: 0.25 }}
-    className="sm:px-8 px-3 sm:py-16 py-10 max-w-7xl mx-auto relative z-0"
+    className="sm:px-8 px-3 max-w-7xl mx-auto relative z-0"
   >
     <span className='hash-span' id="about">
       &nbsp;
     </span>
 
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div >
         <p className= "sm:text-[18px] text-[14px] text-gray-500 uppercase tracking-wider">Introduction</p>
         <h2 className= "text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Overview.</h2>
       </motion.div>

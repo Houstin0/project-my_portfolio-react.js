@@ -81,7 +81,7 @@ const Contact = () => {
       className={` flex xl:flex-row flex-col-reverse gap-4 overflow-hidden h-screen justify-center `}
     >
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
+        variants={slideIn("right", "tween", 0, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className="sm:text-[18px] text-[14px] text-gray-500 uppercase tracking-wider text-center">Get in touch</p>

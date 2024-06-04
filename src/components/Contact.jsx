@@ -1,11 +1,10 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
 
+import { slideIn } from "../utils/motion";
+import { staggerContainer } from "../utils/motion";
 
 const Contact = () => {
   const formRef = useRef();
@@ -67,15 +66,26 @@ const Contact = () => {
   };
 
   return (
+    <motion.section
+    variants={staggerContainer()}
+    initial='hidden'
+    whileInView='show'
+    viewport={{ once: true, amount: 0.25 }}
+    className="sm:px-8 px-3  max-w-7xl mx-auto relative z-0"
+  >
+    <span className='hash-span' id="contact">
+      &nbsp;
+    </span>
+
     <div
-      className={`xl:mt-4 flex xl:flex-row flex-col-reverse gap-4 overflow-hidden h-screen justify-center `}
+      className={` flex xl:flex-row flex-col-reverse gap-4 overflow-hidden h-screen justify-center `}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className="sm:text-[18px] text-[14px] text-gray-500 uppercase tracking-wider text-center">Get in touch</p>
+        <h3 className="text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">Contact.</h3>
 
         <form
   ref={formRef}
@@ -83,7 +93,7 @@ const Contact = () => {
   className='mt-18 flex flex-col gap-4  '
 >
   <label className='flex flex-col'>
-    <span className='text-white font-medium mb-2'>Your Name</span> 
+    <span className='text-black dark:text-white font-medium mb-2'>Your Name</span> 
     <input
       type='text'
       name='name'
@@ -94,7 +104,7 @@ const Contact = () => {
     />
   </label>
   <label className='flex flex-col'>
-    <span className='text-white font-medium mb-2'>Your email</span> 
+    <span className='text-black dark:text-white font-medium mb-2'>Your email</span> 
     <input
       type='email'
       name='email'
@@ -105,7 +115,7 @@ const Contact = () => {
     />
   </label>
   <label className='flex flex-col'>
-    <span className='text-white font-medium mb-2'>Your Message</span> 
+    <span className='text-black dark:text-white font-medium mb-2'>Your Message</span> 
     <textarea
       rows={5}
       name='message'
@@ -118,7 +128,7 @@ const Contact = () => {
 
   <button
     type='submit'
-    className='bg-tertiary py-2 px-4 rounded-lg outline-none text-white font-bold shadow-md shadow-primary' // Decreased the padding and rounded the corners more
+    className='bg-tertiary py-2 px-4 rounded-lg outline-none text-black dark:text-white font-bold shadow-md shadow-primary' // Decreased the padding and rounded the corners more
   >
     {loading ? "Sending..." : "Send"}
   </button>
@@ -128,7 +138,10 @@ const Contact = () => {
 
      
     </div>
+  </motion.section>
+
+  
   );
 };
 
-export default SectionWrapper(Contact, "contact");
+export default Contact;

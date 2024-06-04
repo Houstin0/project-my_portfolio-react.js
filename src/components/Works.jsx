@@ -70,7 +70,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <motion.section
-    variants={staggerContainer()}
+ 
     initial='hidden'
     whileInView='show'
     viewport={{ once: true, amount: 0.25 }}
@@ -87,8 +87,8 @@ const Works = () => {
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+        <p
+          
           className='mt-3 text-black dark:text-white text-[17px] max-w-3xl leading-[30px]'
         >
           Following projects showcases my skills and experience through
@@ -96,7 +96,7 @@ const Works = () => {
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
-        </motion.p>
+        </p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>

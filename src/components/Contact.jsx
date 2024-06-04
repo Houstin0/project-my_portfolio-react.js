@@ -67,7 +67,7 @@ const Contact = () => {
 
   return (
     <motion.section
-    variants={staggerContainer()}
+    
     initial='hidden'
     whileInView='show'
     viewport={{ once: true, amount: 0.25 }}
@@ -76,7 +76,8 @@ const Contact = () => {
     <span className='hash-span' id="contact">
       &nbsp;
     </span>
-
+    <p className="sm:text-[18px] text-[14px] text-gray-500 uppercase tracking-wider text-center">Get in touch</p>
+        <h3 className="text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">Contact.</h3>
     <div
       className={` flex xl:flex-row flex-col-reverse gap-4 overflow-hidden h-screen justify-center `}
     >
@@ -84,8 +85,7 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className="sm:text-[18px] text-[14px] text-gray-500 uppercase tracking-wider text-center">Get in touch</p>
-        <h3 className="text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">Contact.</h3>
+
 
         <form
   ref={formRef}
@@ -138,6 +138,7 @@ const Contact = () => {
 
      
     </div>
+
   </motion.section>
 
   

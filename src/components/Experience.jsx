@@ -66,7 +66,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <motion.section
-    variants={staggerContainer()}
+   
     initial='hidden'
     whileInView='show'
     viewport={{ once: true, amount: 0.25 }}
@@ -77,14 +77,14 @@ const Experience = () => {
     </span>
 
     <>
-      <motion.div >
+      <div >
         <p className="sm:text-[18px] text-[14px] text-black dark:text-white uppercase tracking-wider text-center">
           What I have done so far
         </p>
         <h2 className="text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">
           Work Experience.
         </h2>
-      </motion.div>
+      </div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline lineColor={"#362F78"} >

@@ -82,7 +82,7 @@ const Contact = () => {
       className={` flex xl:flex-row flex-col-reverse gap-4 overflow-hidden h-screen justify-center `}
     >
       <motion.div
-        variants={slideIn("right", "tween", 0, 1)}
+        variants={slideIn("right", "tween", 0, 0.75)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
 

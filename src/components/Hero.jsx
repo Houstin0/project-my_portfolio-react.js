@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 
-import { ComputersCanvas } from "./canvas";
+
 
 const Hero = () => {
   return (
@@ -27,7 +27,7 @@ const Hero = () => {
     
       <div className='absolute top-0 w-full sm:w-2/3 h-full sm:right-0'>
 
-        <ComputersCanvas />
+       
       </div>
 
       {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>

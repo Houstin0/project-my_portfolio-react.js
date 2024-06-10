@@ -51,7 +51,7 @@ const About = () => {
     <>
       <motion.div >
         <p className= "sm:text-[18px] text-[14px] text-gray-500 uppercase tracking-wider">Introduction</p>
-        <h2 className= "text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Overview.</h2>
+        <h2 className= "text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">About Me.</h2>
       </motion.div>
 
       <p

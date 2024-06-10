@@ -7,7 +7,7 @@ export default {
     extend: {
       colors: {
         
-        tertiary: "#42389D",
+        tertiary: "#362F78",
        
        
       },

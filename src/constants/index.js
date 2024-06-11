@@ -1,14 +1,11 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+  
     javascript,
     
     html,
     css,
     reactjs,
-    
+    figma,
     tailwind,
     nodejs,
    
@@ -39,24 +36,7 @@ import {
     },
   ];
   
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
+
   
   const technologies = [
     {
@@ -85,7 +65,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-
+    {
+      name: "Figma",
+      icon: figma,
+    },
 
     {
       name: "git",
@@ -243,4 +226,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { technologies, experiences, testimonials, projects };

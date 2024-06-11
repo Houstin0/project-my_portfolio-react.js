@@ -44,11 +44,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-transparent" : "bg-transparent"
+      className={`w-full flex items-center py-3  fixed top-0 z-20 ${
+        scrolled ? "bg-gray-200 dark:bg-black" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='w-full flex justify-between items-center pl-2 sm:pl-0 max-w-7xl mx-auto'>
         <Link
           to='/'
           className='flex items-center gap-2'

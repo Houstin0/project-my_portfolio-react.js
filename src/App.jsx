@@ -1,8 +1,12 @@
+import React from 'react';
 import { BrowserRouter } from "react-router-dom";
+import { useMediaQuery } from 'react-responsive';
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Works } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from "./components";
 
 const App = () => {
+  const isDesktop = useMediaQuery({ minWidth: 1024 });
+
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-gray-200 dark:bg-black'>
@@ -12,7 +16,7 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        {/* <Tech /> */}
+      {isDesktop && <Tech />}
         <Works />
         <Feedbacks />
         <div className='relative z-0'>

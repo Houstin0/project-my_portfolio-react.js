@@ -1,8 +1,7 @@
-import React from 'react';
 import { BrowserRouter } from "react-router-dom";
 import { useMediaQuery } from 'react-responsive';
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Works } from "./components";
 
 const App = () => {
   const isDesktop = useMediaQuery({ minWidth: 1024 });
@@ -16,7 +15,7 @@ const App = () => {
         </div>
         <About />
         <Experience />
-      {isDesktop && <Tech />}
+      {/* {isDesktop && <Tech />} */}
         <Works />
         <Feedbacks />
         <div className='relative z-0'>

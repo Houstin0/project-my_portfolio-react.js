@@ -40,25 +40,28 @@ const About = () => {
 
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1">
-          <p className='mt-4 text-black dark:text-white text-[17px] leading-[30px]'>
+          <p className='mt-2 text-black dark:text-white text-[17px] leading-[30px]'>
             I&apos;m a skilled software engineer with experience in Frontend and backend development. I possess a strong
             foundation in front-end programming with HTML and JavaScript with expertise in frameworks like React, Node.js, and
             Vite, styling with CSS, Bootstrap, and Tailwind.
           </p>
-          <p className='mt-4 text-black dark:text-white text-[17px] leading-[30px]'>
+          <p className='mt-1 text-black dark:text-white text-[17px] leading-[30px]'>
             In back-end development, I excel in Python programming with frameworks like Django, Flask, FastAPI, utilizing SQL
-            for database interactions. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems.
+            for database interactions. I&apos;m a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems.
           </p>
-          <p className='mt-4 text-black dark:text-white text-[17px] leading-[30px]'>
+          <p className='mt-1 text-black dark:text-white text-[17px] leading-[30px]'>
             I am fueled by a commitment to clean code, delivering outstanding user experiences, keeping up with industry trends, and a hunger
-            for expanding my knowledge. I am actively pursuing work opportunities to apply my knowledge and contribute to cutting-edge projects. If you're seeking innovative web solutions to take your business to the next level, Let's connect and work together to bring your ideas to life!
+            for expanding my knowledge. I am actively pursuing work opportunities to apply my knowledge and contribute to cutting-edge projects. If you&apos;re seeking innovative web solutions to take your business to the next level, Let&apos;s connect and work together to bring your ideas to life!
           </p>
         </div>
 
-        <div className='flex-1 grid grid-cols-4 sm:grid-cols-5 lg:grid-cols-5 gap-1 max-h-[200px]'>
-          {technologies.map((service, index) => (
-            <TechnologyCard key={service.title} index={index} {...service} />
-          ))}
+        <div className='flex-1 flex flex-col items-center '>
+          <h3 className="text-black dark:text-white font-bold text-3xl my-1">My Skills</h3>
+          <div className='grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-6 gap-1 max-h-[200px]'>
+            {technologies.map((service, index) => (
+              <TechnologyCard key={service.title} index={index} {...service} />
+            ))}
+          </div>
         </div>
       </div>
     </motion.section>

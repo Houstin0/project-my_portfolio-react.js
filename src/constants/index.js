@@ -18,6 +18,7 @@ import {
     carrent,
     jobit,
     tripguide,
+    madolla
     
   } from "../assets";
   
@@ -161,6 +162,26 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Madolla Vape",
+      description: "an e-commerce website designed to make vape pens available to users anywhere at anytime. It aims to provide a seamless and user-friendly platform where customers can browse and purchase vape pens without the need to log in.",  
+       tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: madolla,
+      source_code_link: "https://maddolla-vape.onrender.com/",
+    },
     {
       name: "Car Rent",
       description:

@@ -1,10 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
-import { useMediaQuery } from 'react-responsive';
+// import { useMediaQuery } from 'react-responsive';
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Works } from "./components";
+import { About, Contact, Feedbacks, Hero, Navbar, Works } from "./components";
 
 const App = () => {
-  const isDesktop = useMediaQuery({ minWidth: 1024 });
+  // const isDesktop = useMediaQuery({ minWidth: 1024 });
 
   return (
     <BrowserRouter>
@@ -14,7 +14,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience />
+        {/* <Experience /> */}
       {/* {isDesktop && <Tech />} */}
         <Works />
         <Feedbacks />

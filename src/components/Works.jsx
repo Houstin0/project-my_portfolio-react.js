@@ -77,9 +77,9 @@ const Works = () => {
     viewport={{ once: true, amount: 0.25 }}
     className="sm:px-8 px-3 sm:py-16 py-10 max-w-7xl mx-auto relative z-0"
   >
-    <span className='hash-span' id="">
-      &nbsp;
-    </span>
+          <span className='hash-span' id="work">
+        &nbsp;
+      </span>
 
     <>
       <motion.div >

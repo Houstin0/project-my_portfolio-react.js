@@ -5,11 +5,10 @@ import { Link } from "react-router-dom";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 
-const Navbar = () => {
+const Navbar = ({setIsDarkMode, isDarkMode}) => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
     setIsDarkMode((prev) => !prev);
@@ -65,8 +64,8 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-indigo-700 dark:text-indigo-700" : ""
-              } hover:text-indigo-700 text-black dark:text-white text-[18px] font-medium cursor-pointer`}
+                active === nav.title ? "text-indigo-400 dark:text-indigo-400" : ""
+              } hover:text-indigo-400 text-black dark:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -131,7 +130,7 @@ const Navbar = () => {
           >
             {isDarkMode ? (
               <svg
-                className="w-6 h-6 text-gray-800 dark:text-white"
+                className="w-6 h-6 text-black dark:text-white"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -149,7 +148,7 @@ const Navbar = () => {
               </svg>
             ) : (
               <svg
-                className="w-6 h-6 text-gray-800 dark:text-white"
+                className="w-6 h-6 text-black dark:text-white"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

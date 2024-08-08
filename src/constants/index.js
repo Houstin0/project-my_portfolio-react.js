@@ -18,7 +18,9 @@ import {
     carrent,
     jobit,
     tripguide,
-    madolla
+    madolla,
+    netWoods,
+    maliDuka
     
   } from "../assets";
   
@@ -163,16 +165,64 @@ import {
   
   const projects = [
     {
-      name: "Madolla Vape",
-      description: "an e-commerce website designed to make vape pens available to users anywhere at anytime. It aims to provide a seamless and user-friendly platform where customers can browse and purchase vape pens without the need to log in.",  
+      name: "MaliDuka",
+      description: "E-commerce website, using React,, JavaScript,Vite, and Tailwind CSS. The site features a broad product catalog spanning electronics, fashion, and home goods. Key elements include detailed product pages, a shopping cart, and no log-in requirement for checkout. The responsive design ensures a smooth shopping experience on any device. This solution enhances user engagement, simplifies the purchasing process, and effectively broadens MaliDuka’s market reach.",  
        tags: [
         {
           name: "React",
           color: "blue-text-gradient",
         },
         {
+          name: "JavaScript",
+          color: "orange-text-gradient",
+        },
+        {
           name: "Vite",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: maliDuka,
+      source_code_link: "https://maliduka.onrender.com/",
+    },
+    {
+      name: "NetWoods",
+      description: "A company profile website for NetWoods, dedicated to providing reliable internet connectivity to rural areas. Using Next.js, TypeScript, and Tailwind CSS, I developed a responsive and user-friendly site that showcases NetWoods' company overview, services, contact information and a Google Maps API embedded map to showcase the company's location. This solution enhances NetWoods' online presence, allowing potentia clients to easily access information about the company's services and reach out for inquiries, ultimately driving business growth and community impact.",  
+       tags: [
+        {
+          name: "Next.js",
+          color: "black-text-gradient",
+        },
+        {
+          name: "TypeScript",
           color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: netWoods,
+      source_code_link: "https://maliduka.onrender.com/",
+    },
+    {
+      name: "Madolla Vape",
+      description: "An e-commerce website for Madolla Vape, built with React, Vite, JavaScript, and Tailwind CSS. Designed to offer a user-friendly and accessible online store, it allows customers to browse and purchase high-quality vape pens without needing to log in. The solution includes detailed product pages, a shopping cart,no log-in requirement for checkout, and a responsive design, ensuring an optimal experience on any device. By streamlining the shopping process and enhancing user satisfaction, the website effectively expands market reach and encourages business growth.",  
+       tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "purple-text-gradient",
         },
         {
           name: "Tailwind CSS",

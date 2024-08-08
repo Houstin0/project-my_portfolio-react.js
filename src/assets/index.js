@@ -21,7 +21,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import madolla from "./project/Screenshot of Madolla Vape.png";
+import madolla from "./project/Screenshot madollaVape.png";
+import maliDuka from "./project/Screenshot maliDuka.png";
+import netWoods from "./project/Screenshot netwoods.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -50,5 +52,7 @@ export {
   carrent,
   jobit,
   tripguide,
-  madolla
+  madolla,
+  maliDuka,
+  netWoods
 };

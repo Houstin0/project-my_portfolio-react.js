@@ -13,24 +13,22 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-gray-200 dark:bg-black'>
-        <div className='bg-gray-200 dark:bg-black bg-cover bg-no-repeat bg-center'>
+      <div className="relative z-0 bg-gray-200 dark:bg-black">
+        <div className="bg-gray-200 dark:bg-black bg-cover bg-no-repeat bg-center">
           <Navbar setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode} />
           <Hero />
         </div>
         <About />
         {/* <Experience /> */}
-      {/* {isDesktop && <Tech />} */}
+        {/* {isDesktop && <Tech />} */}
         <Works />
         {/* <Feedbacks /> */}
-        <div className='relative z-0'>
-       
+        <div className="relative z-0">
           <Contact />
-         
         </div>
       </div>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

@@ -1,7 +1,4 @@
-
 // import { motion } from "framer-motion";
-
-
 // import { BallCanvas } from "./canvas";
 // import { staggerContainer } from "../utils/motion";
 // import { slideIn } from "../utils/motion";

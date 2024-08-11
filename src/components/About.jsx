@@ -56,7 +56,7 @@ const About = () => {
         </div>
 
         <div className='flex-1 flex flex-col items-center '>
-          <h3 className="text-black dark:text-white font-bold text-3xl my-1">My Skills</h3>
+          <h3 className="text-black dark:text-white font-bold text-3xl my-1 animate-bounce">My Skills</h3>
           <div className='grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-6 gap-1 max-h-[200px]'>
             {technologies.map((service, index) => (
               <TechnologyCard key={service.title} index={index} {...service} />

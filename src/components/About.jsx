@@ -42,11 +42,11 @@ const About = () => {
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1">
           <p className="mt-2 text-black dark:text-white text-[17px] leading-[30px]">
-            I&apos;m a skilled software engineer with experience in Frontend and
-            backend development. I possess a strong foundation in front-end
-            programming with HTML and JavaScript with expertise in frameworks
-            like React, Node.js, and Vite, styling with CSS, Bootstrap, and
-            Tailwind.
+            I&apos;m Houstin Angwenyi, a skilled software engineer with
+            experience in frontend and backend development. I possess a strong
+            foundation in front-end programming with HTML, JavaScript and TypeScript with
+            expertise in framework languages like React, Next.js, Node.js, and Vite, styling with
+            CSS, Bootstrap, and Tailwind.
           </p>
           <p className="mt-1 text-black dark:text-white text-[17px] leading-[30px]">
             In back-end development, I excel in Python programming with

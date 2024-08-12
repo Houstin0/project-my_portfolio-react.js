@@ -53,7 +53,7 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
         >
           {/* <img src={logo} alt='logo' className='w-9 h-8 object-contain' /> */}
           <p className="text-black dark:text-white text-[18px] font-bold cursor-pointer flex ">
-            Houstin
+            Houstin Angwenyi
           </p>
         </Link>
 

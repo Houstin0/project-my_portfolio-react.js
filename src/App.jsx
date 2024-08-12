@@ -13,8 +13,8 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-gray-200 dark:bg-black">
-        <div className="bg-gray-200 dark:bg-black bg-cover bg-no-repeat bg-center">
+      <div className="max-w-full overflow-x-hidden bg-gray-200 dark:bg-black">
+        <div className="bg-gray-200 dark:bg-black ">
           <Navbar setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode} />
           <Hero />
         </div>
@@ -23,7 +23,7 @@ const App = () => {
         {/* {isDesktop && <Tech />} */}
         <Works />
         {/* <Feedbacks /> */}
-        <div className="relative z-0">
+        <div>
           <Contact />
         </div>
       </div>

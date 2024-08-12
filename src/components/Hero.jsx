@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto overflow-hidden bg-gradient-to-r from-gray-200 to-tertiary dark:from-black  dark:to-tertiary">
-      <div className="absolute inset-0 top-[60px] sm:top-[140px] pl-2 sm:pl-0 max-w-7xl mx-auto flex flex-row items-start gap-5">
+      <div className="absolute inset-0 top-[40px] sm:top-[90px] pl-2 sm:pl-0 max-w-7xl mx-auto flex flex-row items-start gap-5">
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-indigo-900" />
           <div className="w-1 sm:h-80 h-40 indigo-gradient" />

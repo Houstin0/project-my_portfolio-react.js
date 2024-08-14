@@ -42,28 +42,27 @@ const About = () => {
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1">
           <p className="mt-2 text-black dark:text-white text-[17px] leading-[30px]">
-            I&apos;m Houstin Angwenyi, a skilled software engineer with
+            I&apos;m Houstin Angwenyi, a skilled software developer with
             experience in frontend and backend development. I possess a strong
             foundation in front-end programming with HTML, JavaScript, and
             TypeScript with expertise in framework languages like React,
-            Next.js, Node.js, and Vite, styling with CSS, Bootstrap, and
-            Tailwind.
+            Next.js, Node.js, and Vite, styling with CSS, Tailwind, and Bootstrap.
           </p>
           <p className="mt-1 text-black dark:text-white text-[17px] leading-[30px]">
             In back-end development, I excel in Python programming with
-            frameworks like Django, Flask, and FastAPI, utilizing SQL for
-            database interactions. I&apos;m a quick learner and collaborate closely
-            with clients to create efficient, scalable, and user-friendly
-            solutions that solve real-world problems.
+            frameworks like Django, Flask, FastAPI, utilizing SQL for database
+            interactions. I&apos;m a quick learner and collaborate closely with
+            clients to create efficient, scalable, and user-friendly solutions
+            that solve real-world problems.
           </p>
           <p className="mt-1 text-black dark:text-white text-[17px] leading-[30px]">
-            Fueled by a commitment to clean code, delivering outstanding
+            I am fueled by a commitment to clean code, delivering outstanding
             user experiences, keeping up with industry trends, and a hunger for
-            expanding my knowledge. I am actively seeking work opportunities to apply
-            my knowledge and contribute to cutting-edge projects. If you&apos;re
-            seeking innovative web solutions to take your business to the next
-            level, get in touch to develop a web solution that enhances user
-            experience and boosts your business performance.
+            expanding my knowledge. I am actively pursuing work opportunities to
+            apply my knowledge and contribute to cutting-edge projects. If
+            you&apos;re seeking innovative web solutions to take your business
+            to the next level, get in touch to develop a web solution that
+            enhances user experience and boosts your business performance.
           </p>
         </div>
 

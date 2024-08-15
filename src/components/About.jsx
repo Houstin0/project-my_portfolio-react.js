@@ -24,7 +24,7 @@ const About = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className="sm:px-8 px-3 max-w-7xl mx-auto relative z-0"
+      className="md:px-8 px-4 max-w-7xl mx-auto relative z-0"
     >
       <span className="hash-span" id="about">
         &nbsp;
@@ -42,12 +42,12 @@ const About = () => {
       </motion.div>
 
       <div className="flex flex-col lg:flex-row">
-        <div className="flex-1">
+        <div className="flex-1 mb-6">
           <p className="mt-2 text-black dark:text-white text-[17px] leading-[30px]">
             I&apos;m Houstin Angwenyi, a skilled software developer with
             experience in frontend and backend development. My journey began at
             Moringa School, where I acquired a solid foundation a strong
-            foundation in front-end development with NextJS, React, JavaScript,
+            foundation in front-end development with NextJS, ReactJS, JavaScript,
             TypeScript, Node.js, HTML and styling with CSS, Tailwind CSS, and
             Bootstrap.
           </p>
@@ -69,6 +69,8 @@ const About = () => {
           </p>
           <a
             href="/resume_houstin.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white bg-gradient-to-r from-purple-500 to-tertiary hover:bg-gradient-to-l font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 my-4 animate-bounce"
           >
             View My Resume

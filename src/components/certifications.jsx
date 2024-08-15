@@ -1,6 +1,6 @@
 const Certifications = () => {
   return (
-    <section className="py-12 bg-gray-200 dark:bg-black">
+    <section className="md:py-8 md:px-8 px-4 bg-gray-200 dark:bg-black">
               <span className="hash-span" id="certifications">
         &nbsp;
       </span>
@@ -13,7 +13,7 @@ const Certifications = () => {
         </h2>
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         
-          <div className="bg-gray-100  shadow-md rounded-lg p-6">
+          <div className="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg p-6">
             <img
               src="Moringa_cert.jpg"
               alt="Certification Logo"
@@ -25,23 +25,24 @@ const Certifications = () => {
             <h3 className="text-base font-bold text-black dark:text-white">
               Moringa School
             </h3>
-            <p className="text-gray-600">
+            <p className="text-gray-600 dark:text-gray-400">
               Certificate awarded for successfully completing the Software
-              Engineering course on 17th November 2023 at Moringa School. The
+              Engineering course at Moringa School. The
               program covered both back-end and front-end technologies,
               incorporating content from Flatiron School.
             </p>
           </div>
 
-          <div className="bg-gray-100  shadow-md rounded-lg p-6">
+          <div className="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg p-6">
             <blockquote
-              className="badgr-badge mt-4"
+              className="badgr-badge bg-white p-3"
               style={{
                 fontFamily:
                   'Helvetica, Roboto, "Segoe UI", Calibri, sans-serif',
               }}
             >
-              <a href="https://api.badgr.io/public/assertions/L9kDvGVPT5-cqcHfF4Az0g?identity__email=houstin00%40gmail.com">
+              <a href="https://api.badgr.io/public/assertions/L9kDvGVPT5-cqcHfF4Az0g?identity__email=houstin00%40gmail.com"   target="_blank"
+  rel="noopener noreferrer">
                 <img
                   width="120px"
                   height="120px"
@@ -127,10 +128,10 @@ const Certifications = () => {
                 src="https://badgr.com/assets/widgets.bundle.js"
               ></script>
             </blockquote>
-            <h3 className="text-base font-bold text-black dark:text-white">
+            <h3 className="mt-2 text-base font-bold text-black dark:text-white">
               Postman
             </h3>
-            <p className="text-gray-600">
+            <p className="text-gray-600 dark:text-gray-400">
               Certified Postman API Fundamentals Student Expert, demonstrating
               proficiency in essential API skills and usage. Gained hands-on
               experience with API concepts, including making GET, POST, PATCH,
@@ -142,7 +143,7 @@ const Certifications = () => {
             </p>
           </div>
 
-          <div className="bg-gray-100  shadow-md rounded-lg p-6">
+          <div className="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg p-6">
             <a
               href="https://media.geeksforgeeks.org/courses/certificates/d3d6634adc87bc4fa6be301c283cdde1.pdf"
               target="_blank"
@@ -161,7 +162,7 @@ const Certifications = () => {
             <h3 className="text-base font-bold text-black dark:text-white">
               GeeksforGeeks
             </h3>
-            <p className="text-gray-600">
+            <p className="text-gray-600 dark:text-gray-400">
               Sucessfully completed a 5-week course on GeeksforGeeks API
               Bootcamp - Sponsored by Postman
             </p>

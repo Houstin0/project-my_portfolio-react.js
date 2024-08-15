@@ -9,6 +9,7 @@ import Works from "./Works";
 import Services from "./services";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
+import Footer from "./footer"
 
 export {
   Hero,
@@ -21,5 +22,6 @@ export {
   Services,
   Feedbacks,
   Contact,
+  Footer
   // BallCanvas,
 };

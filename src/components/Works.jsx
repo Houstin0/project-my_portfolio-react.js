@@ -69,7 +69,7 @@ const Works = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className="sm:px-8 px-3 sm:py-16 py-10 max-w-7xl mx-auto relative z-0"
+      className="md:px-8 px-4 max-w-7xl mx-auto relative z-0"
     >
       <span className="hash-span" id="projects">
         &nbsp;
@@ -101,7 +101,7 @@ const Works = () => {
           </p>
         </div>
 
-        <div className="mt-10 flex flex-wrap gap-7">
+        <div className="mt-10 flex flex-wrap gap-6">
           {projects.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}

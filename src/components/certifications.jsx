@@ -1,13 +1,19 @@
 const Certifications = () => {
   return (
-    <section className="py-12 bg-gray-200 dark:bg-black" id="certifications">
+    <section className="py-12 bg-gray-200 dark:bg-black">
+              <span className="hash-span" id="certifications">
+        &nbsp;
+      </span>
+      <span className="hash-span">
+        &nbsp;
+      </span>
       <div className="container mx-auto">
-        <h2 className="text-3xl font-semibold text-center mb-8 text-black dark:text-white">
+        <h2 className="text-black dark:text-white font-black mb-4 md:text-[50px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">
           Certifications & Badges
         </h2>
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Single Certification/Badge Card */}
-          <div className="bg-white shadow-md rounded-lg p-6">
+        
+          <div className="bg-gray-100  shadow-md rounded-lg p-6">
             <img
               src="Moringa_cert.jpg"
               alt="Certification Logo"
@@ -27,7 +33,7 @@ const Certifications = () => {
             </p>
           </div>
 
-          <div className="bg-white shadow-md rounded-lg p-6">
+          <div className="bg-gray-100  shadow-md rounded-lg p-6">
             <blockquote
               className="badgr-badge mt-4"
               style={{
@@ -136,7 +142,7 @@ const Certifications = () => {
             </p>
           </div>
 
-          <div className="bg-white shadow-md rounded-lg p-6">
+          <div className="bg-gray-100  shadow-md rounded-lg p-6">
             <a
               href="https://media.geeksforgeeks.org/courses/certificates/d3d6634adc87bc4fa6be301c283cdde1.pdf"
               target="_blank"

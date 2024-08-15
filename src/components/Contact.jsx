@@ -74,6 +74,7 @@ const Contact = () => {
       <span className="hash-span" id="contact">
         &nbsp;
       </span>
+      <span className="hash-span">&nbsp;</span>
       <p className="sm:text-[18px] text-[14px] text-gray-500 uppercase tracking-wider text-center">
         Get in touch
       </p>
@@ -82,7 +83,7 @@ const Contact = () => {
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Contact Information
           </h2>
-         
+
           <div className="grid grid-cols-2 items-start">
             <div className="flex items-center space-x-4 mb-6">
               <img
@@ -99,13 +100,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex items-center space-x-4">
-              <img
-                src="/icons/email.gif"
-                alt="email"
-                width={40}
-                height={40}
-                
-              />
+              <img src="/icons/email.gif" alt="email" width={40} height={40} />
               <div>
                 <h3 className="font-semiboldtext-black dark:text-white">
                   Email
@@ -122,8 +117,8 @@ const Contact = () => {
       <h3 className="text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">
         Email Me
         <span className="sm:text-[18px] text-[14px] ml-4 text-gray-500 uppercase tracking-wider text-center">
-        directly
-      </span>
+          directly
+        </span>
       </h3>
 
       <div
@@ -136,7 +131,7 @@ const Contact = () => {
           <form
             ref={formRef}
             onSubmit={handleSubmit}
-            className="mt-18 flex flex-col gap-4  "
+            className="mt-18 flex flex-col gap-4 p-8 bg-gray-50 dark:bg-gray-900 rounded-lg"
           >
             <label className="flex flex-col">
               <span className="text-black dark:text-white font-medium mb-2">
@@ -180,7 +175,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="bg-tertiary py-2 px-4 rounded-lg outline-none text-black dark:text-white font-bold shadow-md shadow-primary" // Decreased the padding and rounded the corners more
+              className="bg-tertiary w-[200px] py-2 px-4 rounded-lg outline-none text-black dark:text-white font-bold shadow-md shadow-primary mx-auto block"
             >
               {loading ? "Sending..." : "Send"}
             </button>

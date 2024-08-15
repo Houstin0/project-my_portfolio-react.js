@@ -26,7 +26,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className="w-[60%] h-[60%] object-contain "
+            className="w-full h-full object-cover rounded-full"
           />
         </div>
       }
@@ -41,16 +41,28 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
-      <ul className="mt-5 list-disc ml-5 space-y-2">
-        {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
-          >
-            {point}
-          </li>
-        ))}
-      </ul>
+<ul className="mt-5 list-disc ml-5 space-y-2">
+  {experience.points.map((point, index) => (
+    <li
+      key={`experience-point-${index}`}
+      className="text-white-100 text-[14px] pl-1 tracking-wider"
+    >
+      {point.includes("visit my") ? (
+        <a 
+          href={experience.link} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-500 hover:underline"
+        >
+          {point}
+        </a>
+      ) : (
+        point
+      )}
+    </li>
+  ))}
+</ul>
+
     </VerticalTimelineElement>
   );
 };
@@ -66,6 +78,9 @@ const Experience = () => {
       <span className="hash-span" id="work">
         &nbsp;
       </span>
+      <span className="hash-span">
+        &nbsp;
+      </span>
 
       <>
         <div>
@@ -73,7 +88,7 @@ const Experience = () => {
             What I have done so far
           </p>
           <h2 className="text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">
-            Work Experience.
+            Work Experience
           </h2>
         </div>
 

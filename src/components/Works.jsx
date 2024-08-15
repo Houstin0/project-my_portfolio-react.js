@@ -17,12 +17,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={zoomIn(index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 350,
-        }}
+      <div
         className="bg-tertiary rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative p-2">
@@ -63,7 +58,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
+      </div>
     </motion.div>
   );
 };
@@ -76,7 +71,10 @@ const Works = () => {
       viewport={{ once: true, amount: 0.25 }}
       className="sm:px-8 px-3 sm:py-16 py-10 max-w-7xl mx-auto relative z-0"
     >
-      <span className="hash-span" id="work">
+      <span className="hash-span" id="projects">
+        &nbsp;
+      </span>
+      <span className="hash-span">
         &nbsp;
       </span>
 
@@ -86,7 +84,7 @@ const Works = () => {
             My work
           </p>
           <h2 className="text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
-            Projects.
+            Projects
           </h2>
         </motion.div>
 

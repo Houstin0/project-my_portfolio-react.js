@@ -20,6 +20,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import upwork from "./company/upwork.png";
+import wTHa_Networks from "./company/wHTa.jpeg";
 
 import madolla from "./project/Screenshot madollaVape.png";
 import maliDuka from "./project/Screenshot maliDuka.png";
@@ -49,6 +51,11 @@ export {
   shopify,
   starbucks,
   tesla,
+  wTHa_Networks,
+  upwork,
+
+
+
   carrent,
   jobit,
   tripguide,

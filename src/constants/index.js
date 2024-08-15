@@ -8,6 +8,8 @@ import {
   nodejs,
   git,
   meta,
+  wTHa_Networks,
+  upwork,
   starbucks,
   tesla,
   shopify,
@@ -27,6 +29,14 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "certifications",
+    title: "Certifications",
   },
   {
     id: "contact",
@@ -71,61 +81,40 @@ const technologies = [
     icon: git,
   },
 ];
-
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    company_name: "Upwork",
+    icon: upwork,
+    iconBg: "#6fda44",
+    date: "Jan 2024 - Present",
+    points: [
+      "Designing and building complete web solutions, handling both front-end and back-end development.",
+      "Creating responsive, user-friendly interfaces to enhance the user experience.",
+      "Implementing robust server-side logic to ensure applications are scalable and secure.",
+      "Working directly with clients to understand their needs and deliver high-quality code.",
+      "Ensuring that all solutions meet performance, security, and scalability requirements.",
+      "For more details on my freelance work, visit my Upwork profile.",
+    ],
+    link: "https://www.upwork.com/freelancers/~012b9b4876c8a66a8e?mp_source=share",
+  },
+  {
+    title: "Front End Developer",
+    company_name: "wTHa Networks",
+    icon: wTHa_Networks,
+    "iconBg": "#1E293B", 
+    "date": "Dec 2023 - Apr 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborated with cross-functional teams to ensure application security through rigorous testing and best practices.",
+      "Played a role in product design to improve user experience and meet client requirements.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Stayed current with technology trends to continually improve web solutions and positively impact client operations.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
+
 
 const testimonials = [
   {

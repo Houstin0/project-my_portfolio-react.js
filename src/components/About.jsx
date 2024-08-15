@@ -29,13 +29,15 @@ const About = () => {
       <span className="hash-span" id="about">
         &nbsp;
       </span>
+      <span className="hash-span">&nbsp;</span>
 
       <motion.div>
         <p className="sm:text-[18px] text-[14px] text-gray-500 uppercase tracking-wider">
-          Introduction
+          Transforming Ideas into Innovative Solutions, One Line of Code at a
+          Time.
         </p>
         <h2 className="text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
-          About Me.
+          About Me
         </h2>
       </motion.div>
 
@@ -43,19 +45,20 @@ const About = () => {
         <div className="flex-1">
           <p className="mt-2 text-black dark:text-white text-[17px] leading-[30px]">
             I&apos;m Houstin Angwenyi, a skilled software developer with
-            experience in frontend and backend development. I possess a strong
-            foundation in front-end programming with HTML, JavaScript, and
-            TypeScript with expertise in framework languages like React,
-            Next.js, Node.js, and Vite, styling with CSS, Tailwind, and Bootstrap.
+            experience in frontend and backend development. My journey began at
+            Moringa School, where I acquired a solid foundation a strong
+            foundation in front-end development with NextJS, React, JavaScript,
+            TypeScript, Node.js, HTML and styling with CSS, Tailwind CSS, and
+            Bootstrap.
           </p>
           <p className="mt-1 text-black dark:text-white text-[17px] leading-[30px]">
-            In back-end development, I excel in Python programming with
+            And in back-end development, I excel in Python programming with
             frameworks like Django, Flask, FastAPI, utilizing SQL for database
             interactions. I&apos;m a quick learner and collaborate closely with
             clients to create efficient, scalable, and user-friendly solutions
             that solve real-world problems.
           </p>
-          <p className="mt-1 text-black dark:text-white text-[17px] leading-[30px]">
+          <p className="mt-1 mb-4 text-black dark:text-white text-[17px] leading-[30px]">
             I am fueled by a commitment to clean code, delivering outstanding
             user experiences, keeping up with industry trends, and a hunger for
             expanding my knowledge. I am actively pursuing work opportunities to
@@ -64,6 +67,12 @@ const About = () => {
             to the next level, get in touch to develop a web solution that
             enhances user experience and boosts your business performance.
           </p>
+          <a
+            href="/resume_houstin.pdf"
+            className="text-white bg-gradient-to-r from-purple-500 to-tertiary hover:bg-gradient-to-l font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 my-4 animate-bounce"
+          >
+            View My Resume
+          </a>
         </div>
 
         <div className="flex-1 flex flex-col items-center ">

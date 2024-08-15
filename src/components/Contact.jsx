@@ -77,9 +77,55 @@ const Contact = () => {
       <p className="sm:text-[18px] text-[14px] text-gray-500 uppercase tracking-wider text-center">
         Get in touch
       </p>
+      <section className="bg-gray-50 dark:bg-gray-900">
+        <div className="py-4 px-4 mx-auto max-w-screen-md">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+            Contact Information
+          </h2>
+         
+          <div className="grid grid-cols-2 items-start">
+            <div className="flex items-center space-x-4 mb-6">
+              <img
+                src="/icons/phone-call.gif"
+                alt="Number"
+                width={40}
+                height={40}
+              />
+              <div>
+                <h3 className="font-semibold text-black dark:text-white">
+                  Phone Number
+                </h3>
+                <p className="text-black dark:text-white">+254 727 041 155</p>
+              </div>
+            </div>
+            <div className="flex items-center space-x-4">
+              <img
+                src="/icons/email.gif"
+                alt="email"
+                width={40}
+                height={40}
+                
+              />
+              <div>
+                <h3 className="font-semiboldtext-black dark:text-white">
+                  Email
+                </h3>
+                <p className="text-black dark:text-white">
+                  houstin00@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <h3 className="text-black dark:text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">
-        Contact.
+        Email Me
+        <span className="sm:text-[18px] text-[14px] ml-4 text-gray-500 uppercase tracking-wider text-center">
+        directly
+      </span>
       </h3>
+
       <div
         className={` flex xl:flex-row flex-col-reverse gap-4 overflow-hidden h-screen justify-center `}
       >

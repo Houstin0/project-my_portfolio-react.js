@@ -1,36 +1,44 @@
 const Certifications = () => {
   return (
     <section className="md:py-8 md:px-8 px-4 bg-gray-200 dark:bg-black">
-              <span className="hash-span" id="certifications">
+      <span className="hash-span" id="certifications">
         &nbsp;
       </span>
-      <span className="hash-span">
-        &nbsp;
-      </span>
+      <span className="hash-span">&nbsp;</span>
       <div className="container mx-auto">
         <h2 className="text-black dark:text-white font-black mb-4 md:text-[50px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">
           Certifications & Badges
         </h2>
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-        
           <div className="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg p-6">
             <img
-              src="Moringa_cert.jpg"
+              src="microsoft_cert.png"
               alt="Certification Logo"
               className="w-full h-50 object-fill mb-4"
             />
             <h3 className="text-xl font-medium text-black dark:text-white">
-              Software Engineering Certificate
+              Career Essentials in Software Development by Microsoft and
+              LinkedIn
             </h3>
             <h3 className="text-base font-bold text-black dark:text-white">
-              Moringa School
+              Microsoft and LinkedIn
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Certificate awarded for successfully completing the Software
-              Engineering course at Moringa School. The
-              program covered both back-end and front-end technologies,
-              incorporating content from Flatiron School.
+              Completed the comprehensive &quot;Career Essentials in Software
+              Development&quot; program by Microsoft and LinkedIn, mastering
+              core programming concepts, practices, and terminology. Gained a
+              strong foundation in the structure and application of programming
+              languages, equipping me with essential skills for a successful
+              career in software development.
             </p>
+            <a
+              href="https://www.linkedin.com/learning/certificates/c42d75e4a48b2da2fe30f19177ebdcd6b99abb6bf2575e541baa1a150ad6c9d6?trk=share_certificate"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline mt-4 block"
+            >
+              View Certification
+            </a>
           </div>
 
           <div className="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg p-6">
@@ -41,8 +49,11 @@ const Certifications = () => {
                   'Helvetica, Roboto, "Segoe UI", Calibri, sans-serif',
               }}
             >
-              <a href="https://api.badgr.io/public/assertions/L9kDvGVPT5-cqcHfF4Az0g?identity__email=houstin00%40gmail.com"   target="_blank"
-  rel="noopener noreferrer">
+              <a
+                href="https://api.badgr.io/public/assertions/L9kDvGVPT5-cqcHfF4Az0g?identity__email=houstin00%40gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   width="120px"
                   height="120px"
@@ -140,6 +151,38 @@ const Certifications = () => {
               and integrating APIs into applications. This certification
               highlights my ability to effectively consume and utilize APIs in
               modern software development.
+            </p>
+            <a
+              href="https://api.badgr.io/public/assertions/L9kDvGVPT5-cqcHfF4Az0g?identity__email=houstin00%40gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline mt-4 block"
+            >
+              View Certification
+            </a>
+          </div>
+
+          <div className="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg p-6">
+            <img
+              src="Moringa_cert.jpg"
+              alt="Certification Logo"
+              className="w-full h-50 object-fill mb-4"
+            />
+            <h3 className="text-xl font-medium text-black dark:text-white">
+              Software Engineering Certificate
+            </h3>
+            <h3 className="text-base font-bold text-black dark:text-white">
+              Moringa School
+            </h3>
+            <p className="text-gray-600 dark:text-gray-400">
+              Certificate awarded for successfully completing the Software
+              Engineering course at Moringa School. The program covered both
+              back-end and front-end technologies, incorporating content from
+              Flatiron School. Mastered languages and tools such as ReactJS,
+              JavaScript, Node.js, HTML, and CSS, along with Tailwind CSS for
+              styling. Gained expertise in Python programming with frameworks
+              like Django, Flask, and FastAPI, utilizing SQL for effective
+              database interactions.
             </p>
           </div>
 

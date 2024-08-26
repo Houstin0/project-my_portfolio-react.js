@@ -175,14 +175,18 @@ const Certifications = () => {
               Moringa School
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Certificate awarded for successfully completing the Software
-              Engineering course at Moringa School. The program covered both
-              back-end and front-end technologies, incorporating content from
-              Flatiron School. Mastered languages and tools such as ReactJS,
-              JavaScript, Node.js, HTML, and CSS, along with Tailwind CSS for
-              styling. Gained expertise in Python programming with frameworks
-              like Django, Flask, and FastAPI, utilizing SQL for effective
-              database interactions.
+              Awarded upon successful completion of a comprehensive Software
+              Engineering program at Moringa School, which integrates rigorous
+              content from the renowned Flatiron School. This intensive course
+              provided a deep dive into both back-end and front-end development,
+              equipping me with hands-on experience in cutting-edge
+              technologies. I gained proficiency in ReactJS, JavaScript,
+              Node.js, HTML, and CSS, with a strong focus on responsive design
+              using Tailwind CSS. Additionally, I developed expertise in Python
+              programming, leveraging powerful frameworks such as Django, Flask,
+              and FastAPI, alongside solid experience in managing databases
+              using SQL. This program was instrumental in shaping my skills and
+              laying a strong foundation for my career in software development.
             </p>
           </div>
 

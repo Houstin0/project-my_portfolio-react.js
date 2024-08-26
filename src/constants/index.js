@@ -87,7 +87,7 @@ const experiences = [
     company_name: "Upwork",
     icon: upwork,
     iconBg: "#6fda44",
-    // date: "Jan 2024 - Present",
+    date: "Jan 2022 - Present",
     points: [
       "Designing and building complete web solutions, handling both front-end and back-end development.",
       "Creating responsive, user-friendly interfaces to enhance the user experience.",
@@ -98,21 +98,21 @@ const experiences = [
     ],
     link: "https://www.upwork.com/freelancers/~012b9b4876c8a66a8e?mp_source=share",
   },
-  {
-    title: "Front End Developer",
-    company_name: "wTHa Networks",
-    icon: wTHa_Networks,
-    "iconBg": "#1E293B", 
-    // "date": "Dec 2023 - Apr 2024",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborated with cross-functional teams to ensure application security through rigorous testing and best practices.",
-      "Played a role in product design to improve user experience and meet client requirements.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Stayed current with technology trends to continually improve web solutions and positively impact client operations.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Front End Developer",
+  //   company_name: "wTHa Networks",
+  //   icon: wTHa_Networks,
+  //   "iconBg": "#1E293B", 
+  //   // "date": "Dec 2023 - Apr 2024",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborated with cross-functional teams to ensure application security through rigorous testing and best practices.",
+  //     "Played a role in product design to improve user experience and meet client requirements.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Stayed current with technology trends to continually improve web solutions and positively impact client operations.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 

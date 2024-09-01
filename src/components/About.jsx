@@ -47,7 +47,7 @@ const About = () => {
             I&apos;m Houstin Angwenyi, a skilled software developer with
             experience in frontend and backend development. My journey began at
             Moringa School, where I acquired a solid foundation a strong
-            foundation in front-end development with NextJS, ReactJS, JavaScript,
+            foundation in front-end development with React, NextJS, JavaScript,
             TypeScript, Node.js, HTML and styling with CSS, Tailwind CSS, and
             Bootstrap.
           </p>

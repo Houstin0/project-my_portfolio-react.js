@@ -4,6 +4,36 @@
 @tailwind components;
 @tailwind utilities;
 
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+/* Track of the scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Color of the track */
+  border-radius: 10px; /* Rounded track corners */
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background-color: royalblue; /* Color of the scrollbar */
+  border-radius: 10px; /* Rounded scrollbar corners */
+  border: 3px solid #362F78; /* Add a border around the scrollbar for a gap effect */
+}
+
+/* Scrollbar handle hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #362F78; /* Darken the color on hover */
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin; /* Set scrollbar width */
+  scrollbar-color: #362F78; /* Scrollbar thumb and track colors */
+}
+
+
 * {
   margin: 0;
   padding: 0;

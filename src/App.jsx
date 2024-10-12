@@ -2,7 +2,17 @@ import { BrowserRouter } from "react-router-dom";
 import { useState } from "react";
 // import { useMediaQuery } from 'react-responsive';
 
-import { About, Contact, Hero, Navbar, Works, Certifications, Experience, Services, Footer } from "./components";
+import {
+  About,
+  Contact,
+  Hero,
+  Navbar,
+  Works,
+  Certifications,
+  Experience,
+  Services,
+  Footer,
+} from "./components";
 
 const App = () => {
   // const isDesktop = useMediaQuery({ minWidth: 1024 });
@@ -13,22 +23,21 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="max-w-full overflow-x-hidden bg-gray-200 dark:bg-black">
-        <div className="bg-gray-200 dark:bg-black ">
-          <Navbar setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode} />
-          <Hero />
-        </div>
+      <div className="min-w-full overflow-x-hidden bg-gray-200 dark:bg-black">
+        <Navbar setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode} />
+        <Hero />
+
         <About />
         <Experience />
-        <Services/>
+        <Services />
         {/* {isDesktop && <Tech />} */}
         <Works />
-        <Certifications/>
+        <Certifications />
         {/* <Feedbacks /> */}
         <div>
           <Contact />
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </BrowserRouter>
   );

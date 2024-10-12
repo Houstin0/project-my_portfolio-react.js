@@ -26,6 +26,7 @@ import wTHa_Networks from "./company/wHTa.jpeg";
 import madolla from "./project/Screenshot madollaVape.png";
 import maliDuka from "./project/Screenshot maliDuka.png";
 import netWoods from "./project/Screenshot netwoods.png";
+import animeWorld from "./project/anime-world.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -61,5 +62,6 @@ export {
   tripguide,
   madolla,
   maliDuka,
-  netWoods
+  netWoods,
+  animeWorld
 };

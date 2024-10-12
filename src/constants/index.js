@@ -19,6 +19,7 @@ import {
   madolla,
   netWoods,
   maliDuka,
+  animeWorld
 } from "../assets";
 
 export const navLinks = [
@@ -176,7 +177,7 @@ const projects = [
     tags: [
       {
         name: "Next.js",
-        color: "black-text-gradient",
+        color: "white",
       },
       {
         name: "TypeScript",
@@ -214,6 +215,27 @@ const projects = [
     ],
     image: madolla,
     source_code_link: "https://maddolla-vape.onrender.com/",
+  },
+  {
+    name: "Anime world",
+    description:
+      "Anime world is an web application that gives the user access to anime and manga information.",
+    tags: [
+      {
+        name: "HTML",
+        color: "white",
+      },
+      {
+        name: "JavaScript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: animeWorld,
+    source_code_link: "https://github.com/Houstin0/project-anime-world",
   },
   // {
   //   name: "Car Rent",

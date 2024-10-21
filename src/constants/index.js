@@ -19,7 +19,7 @@ import {
   madolla,
   netWoods,
   maliDuka,
-  animeWorld
+  animeWorld,
 } from "../assets";
 
 export const navLinks = [
@@ -103,7 +103,7 @@ const experiences = [
   //   title: "Front End Developer",
   //   company_name: "wTHa Networks",
   //   icon: wTHa_Networks,
-  //   "iconBg": "#1E293B", 
+  //   "iconBg": "#1E293B",
   //   // "date": "Dec 2023 - Apr 2024",
   //   points: [
   //     "Developing and maintaining web applications using React.js and other related technologies.",
@@ -115,7 +115,6 @@ const experiences = [
   //   ],
   // },
 ];
-
 
 const testimonials = [
   {
@@ -236,6 +235,31 @@ const projects = [
     ],
     image: animeWorld,
     source_code_link: "https://github.com/Houstin0/project-anime-world",
+  },
+  {
+    name: "Recipe API with CLI",
+    description:
+      "Recipe Manager and Meal Planner CLI is a Flask API with a  command-line application designed to help you organize your recipes and plan for meals. With this tool, you can store, categorize, search for recipes, plan meals, and even generate shopping lists based on your meal plans. Whether you're a culinary enthusiast or just trying to simplify your meal planning, this CLI app has you covered.",
+    tags: [
+      {
+        name: "Flask",
+        color: "black-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sqlalchemy",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "alembic",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: "/projectapi.gif",
+    source_code_link: "https://github.com/Houstin0/project_Recipe_Manager",
   },
   // {
   //   name: "Car Rent",

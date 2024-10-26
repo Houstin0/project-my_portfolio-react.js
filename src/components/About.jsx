@@ -44,7 +44,7 @@ const About = () => {
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1 mb-6">
           <p className="mt-2 text-black dark:text-white text-[17px] leading-[30px]">
-            I&apos;m Houstin Angwenyi, a skilled software developer with
+            I&apos;m Houstin Monubi Angwenyi, a skilled software developer with
             experience in frontend and backend development. My journey began at
             Moringa School, where I acquired a solid foundation a strong
             foundation in front-end development with React, NextJS, JavaScript,

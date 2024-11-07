@@ -101,7 +101,7 @@ const Works = () => {
           </p>
         </div>
 
-        <div className="mt-10 flex flex-wrap gap-6">
+        <div className="mt-10 flex flex-wrap gap-10">
           {projects.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}

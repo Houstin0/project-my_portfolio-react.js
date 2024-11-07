@@ -23,6 +23,7 @@ import tesla from "./company/tesla.png";
 import upwork from "./company/upwork.png";
 import wTHa_Networks from "./company/wHTa.jpeg";
 
+import houseHunt from "./project/house-hunt.png";
 import madolla from "./project/Screenshot madollaVape.png";
 import maliDuka from "./project/Screenshot maliDuka.png";
 import netWoods from "./project/Screenshot netwoods.png";
@@ -63,5 +64,6 @@ export {
   madolla,
   maliDuka,
   netWoods,
-  animeWorld
+  animeWorld,
+  houseHunt
 };

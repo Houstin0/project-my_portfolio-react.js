@@ -20,6 +20,7 @@ import {
   netWoods,
   maliDuka,
   animeWorld,
+  houseHunt,
 } from "../assets";
 
 export const navLinks = [
@@ -145,9 +146,38 @@ const testimonials = [
 
 const projects = [
   {
+    name: "House Hunt",
+    description:
+      "House Hunter is a MERN full-stack web app that simplifies finding and connecting with potential homes for rent or sale. Users can explore listings, chat directly with property owners or landlords, and view available properties on an interactive map. Built with MongoDB, Express.js, React.js, and Node.js, House Hunter delivers a seamless experience, allowing users to discover their next home and easily communicate in real-time with owners or landlords.",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: houseHunt,
+    source_code_link: "https://kejahousehunter.onrender.com/",
+  },
+  {
     name: "MaliDuka",
     description:
-      "E-commerce website, using React, JavaScript,Vite, and Tailwind CSS. The site features a broad product catalog spanning electronics, fashion, and home goods. Key elements include detailed product pages, a shopping cart, and no log-in requirement for checkout. The responsive design ensures a smooth shopping experience on any device. This solution enhances user engagement, simplifies the purchasing process, and effectively broadens MaliDuka’s market reach.",
+      "E-commerce website, using React, JavaScript,Vite, and Tailwind CSS. The website features a broad product catalog spanning electronics, fashion, and home goods. Key elements include detailed product pages, a shopping cart, and no log-in requirement for checkout. The responsive design ensures a smooth shopping experience on any device. This solution enhances user engagement, simplifies the purchasing process, and effectively broadens MaliDuka’s market reach.",
     tags: [
       {
         name: "React",

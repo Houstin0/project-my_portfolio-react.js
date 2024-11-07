@@ -43,22 +43,51 @@ const About = () => {
 
       <div className="flex flex-col lg:flex-row">
         <div className="flex-1 mb-6">
-          <p className="mt-2 text-black dark:text-white text-[17px] leading-[30px]">
+          <p className="mt-2 text-black dark:text-white text-lg text-justify leading-relaxed">
             I&apos;m Houstin Monubi Angwenyi, a skilled software developer with
-            experience in frontend and backend development. My journey began at
-            Moringa School, where I acquired a solid foundation a strong
-            foundation in front-end development with React, NextJS, JavaScript,
-            TypeScript, Node.js, HTML and styling with CSS, Tailwind CSS, and
-            Bootstrap.
+            experience in front-end and back-end development. My journey began
+            at Moringa School, where I acquired skills and a solid foundation in
+            front-end development with
+            <span className="font-semibold ml-1 inline-block">React</span>,
+            <span className="font-semibold ml-1 inline-block">HTML</span>,
+            <span className="font-semibold ml-1 inline-block">JavaScript</span>,
+            <span className="font-semibold ml-1 inline-block">NextJS</span>,
+            <span className="font-semibold ml-1 inline-block">Node.js</span> and
+            styling with
+            <span className="font-semibold ml-1 inline-block">CSS</span>,
+            <span className="font-semibold ml-1 inline-block">TailwindCSS</span>{" "}
+            and
+            <span className="font-semibold ml-1 inline-block">Bootstrap</span>.
           </p>
-          <p className="mt-1 text-black dark:text-white text-[17px] leading-[30px]">
-            And in back-end development, I excel in Python programming with
-            frameworks like Django, Flask, FastAPI, utilizing SQL for database
-            interactions. I&apos;m a quick learner and collaborate closely with
-            clients to create efficient, scalable, and user-friendly solutions
-            that solve real-world problems.
+          <p className="mt-4 text-black dark:text-white text-lg text-justify leading-relaxed">
+            And in back-end development, I excel in
+            <span className="font-semibold ml-1">Python</span>
+            and<span className="font-semibold ml-1 inline-block">
+              Node.js
+            </span>{" "}
+            programming with the following frameworks:
+            <span className="font-semibold ml-1 inline-block">Express.js</span>,
+            <span className="font-semibold ml-1 inline-block">Django</span>,
+            <span className="font-semibold ml-1 inline-block">Flask</span>,
+            <span className="font-semibold ml-1 inline-block">FastAPI</span>,
+            utilizing prisma and SQL for database interactions with the
+            following databases
+            <span className="font-semibold ml-1 inline-block">MongoDB</span>,
+            <span className="font-semibold ml-1 inline-block">PostgreSQL</span>,
+            <span className="font-semibold ml-1 inline-block">MySQL</span>,
+            <span className="font-semibold ml-1 inline-block">SQLite</span>,
+            <span className="font-semibold ml-1 inline-block">
+              Firebase Firestore
+            </span>{" "}
+            and
+            <span className="font-semibold ml-1 inline-block">
+              Oracle Database
+            </span>
+            . I&apos;m a quick learner and collaborate closely with clients to
+            create efficient, scalable, and user-friendly solutions that solve
+            real-world problems.
           </p>
-          <p className="mt-1 mb-4 text-black dark:text-white text-[17px] leading-[30px]">
+          <p className="mt-4 mb-4 text-black dark:text-white text-lg text-justify leading-relaxed">
             I am fueled by a commitment to clean code, delivering outstanding
             user experiences, keeping up with industry trends, and a hunger for
             expanding my knowledge. I am actively pursuing work opportunities to
@@ -74,6 +103,14 @@ const About = () => {
             className="text-white bg-gradient-to-r from-purple-500 to-tertiary hover:bg-gradient-to-l font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 my-4 animate-bounce"
           >
             View My Resume
+          </a>
+
+          <a
+            href="/resume_houstin.pdf"
+            download="resume_houstin.pdf"
+            className="text-white bg-gradient-to-r from-green-500 to-tertiary hover:bg-gradient-to-l font-medium rounded-full text-sm px-5 py-2.5 text-center my-4 animate-bounce"
+          >
+            Download My Resume
           </a>
         </div>
 

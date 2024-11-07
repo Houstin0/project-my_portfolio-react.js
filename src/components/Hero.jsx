@@ -83,7 +83,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 sm:bottom-0 sm:right-10 sm:left-auto sm:transform-none w-[56vw] sm:w-[26vw]">
+      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 sm:bottom-0 sm:right-12 sm:left-auto sm:transform-none w-[56vw] sm:w-[28vw]">
         <motion.img
           src="/my pic.png"
           alt="Houstin"

@@ -10,6 +10,34 @@ const Certifications = () => {
           Certifications & Badges
         </h2>
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+
+        <div className="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg p-6">
+            <img
+              src="Moringa_cert.jpg"
+              alt="Certification Logo"
+              className="w-full h-50 object-fill mb-4"
+            />
+            <h3 className="text-xl font-medium text-black dark:text-white">
+              Software Engineering Certificate
+            </h3>
+            <h3 className="text-base font-bold text-black dark:text-white">
+              Moringa School
+            </h3>
+            <p className="text-gray-600 dark:text-gray-400">
+              Awarded upon successful completion of a comprehensive Software
+              Engineering program at Moringa School, which integrates rigorous
+              content from the renowned Flatiron School. This intensive course
+              provided a deep dive into both back-end and front-end development,
+              equipping me with hands-on experience in cutting-edge
+              technologies. I gained proficiency in ReactJS, JavaScript,
+              Node.js, HTML, and CSS, with a strong focus on responsive design
+              using Tailwind CSS. Additionally, I developed expertise in Python
+              programming, leveraging powerful frameworks such as Django, Flask,
+              and FastAPI, alongside solid experience in managing databases
+              using SQL. This program was instrumental in shaping my skills and
+              laying a strong foundation for my career in software development.
+            </p>
+          </div>
           <div className="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg p-6">
             <img
               src="microsoft_cert.png"
@@ -160,34 +188,6 @@ const Certifications = () => {
             >
               View Certification
             </a>
-          </div>
-
-          <div className="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg p-6">
-            <img
-              src="Moringa_cert.jpg"
-              alt="Certification Logo"
-              className="w-full h-50 object-fill mb-4"
-            />
-            <h3 className="text-xl font-medium text-black dark:text-white">
-              Software Engineering Certificate
-            </h3>
-            <h3 className="text-base font-bold text-black dark:text-white">
-              Moringa School
-            </h3>
-            <p className="text-gray-600 dark:text-gray-400">
-              Awarded upon successful completion of a comprehensive Software
-              Engineering program at Moringa School, which integrates rigorous
-              content from the renowned Flatiron School. This intensive course
-              provided a deep dive into both back-end and front-end development,
-              equipping me with hands-on experience in cutting-edge
-              technologies. I gained proficiency in ReactJS, JavaScript,
-              Node.js, HTML, and CSS, with a strong focus on responsive design
-              using Tailwind CSS. Additionally, I developed expertise in Python
-              programming, leveraging powerful frameworks such as Django, Flask,
-              and FastAPI, alongside solid experience in managing databases
-              using SQL. This program was instrumental in shaping my skills and
-              laying a strong foundation for my career in software development.
-            </p>
           </div>
 
           <div className="bg-gray-100 dark:bg-gray-900 shadow-md rounded-lg p-6">
